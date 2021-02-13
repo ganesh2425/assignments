@@ -1,0 +1,26 @@
+form.form-example {
+    display: table;
+    text-align: justify;
+}
+
+h1 {
+    text-underline-position: below;
+    color: blue;
+    nav-index: auto;
+}
+
+div.form-example {
+    display:table;
+    color: blueviolet
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    color: rgb(30, 168, 210);
+    text-align: center;
+}
+
+label {
+    padding-right: 20px;
+}
