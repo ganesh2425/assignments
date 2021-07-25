@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>html Forms</h2>
+    <form action="thankyou.html" method="POST">
+        <label for="username">Username</label> 
+        <input type="text" id="username" name="username"> <br> <br>
+        <label for="password">Password</label> 
+        <input type="password" id="password" name="password"> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" id="emai"> <br> <br>
+        <input type="submit" value="Sign in">
+    </form>
+    <h2>Placeholder, Required</h2>
+    <form>
+        <label for="username">Username</label> 
+        <input type="text" id="username" placeholder="username" required> <br> <br>
+        <label for="password">Password</label> 
+        <input type="password" id="password" placeholder="password" required> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" id="emai" placeholder="email" required> <br> <br>
+        <input type="submit" value="Sign in">
+    </form>
+    <h2>Radio button</h2>
+    <form>
+        <label for="username">Username</label> 
+        <input type="text" id="username" placeholder="username" required> <br> <br>
+        <label for="password">Password</label> 
+        <input type="password" id="password" placeholder="password" required> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" id="emai" placeholder="email" required> <br> <br>
+
+        <p>Select Gender</p> <br> <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male"> <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female"> <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other"> <br>
+
+        <input type="submit" value="Sign in">
+    </form>
+
+    <h2>Dropdown List</h2>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" id="name" required> <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" required> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required> <br>
+        
+        <p>Select your gender</p> <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">  <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other">  <br>
+        <label for="fmale">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">  <br>
+
+        <label>Select your age</label>
+        <select>
+            <option value="5-10">5-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-40">30-40</option>
+        </select> <br>
+        <input type="submit" value="Sign up">
+
+    </form>
+</body>
+</html>
