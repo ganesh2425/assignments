@@ -1,4 +1,4 @@
-let Mobiles = ['Samsung', 'Nokia', 'Apple', 'Intex'];
+let Mobiles = ['Samsung', 'Nokia', 'Apple', 'Intel'];
 
 console.log(Mobiles);
 

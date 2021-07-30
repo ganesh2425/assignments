@@ -1,7 +1,7 @@
 let array = ['Backbencher'];
 
-let string = "Reddy";
+let string = "Samba";
 
-let addition = string + array;
+let addition = string  + array;
 
 console.log(addition);
