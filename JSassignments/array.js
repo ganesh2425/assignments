@@ -9,3 +9,4 @@ fruits.forEach(function(item, index, array){
 });
 let newLength = fruits.push('Mango');
 console.log(fruits.length);
+console.log(fruits)
